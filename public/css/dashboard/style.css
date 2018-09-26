@@ -1,0 +1,79 @@
+header,
+main,
+footer {
+  padding-left: 240px;
+}
+
+body {
+  backgroud: white;
+}
+
+@media only screen and (max-width: 992px) {
+  header,
+  main,
+  footer {
+    padding-left: 0;
+  }
+}
+
+.error-icons{
+  color:red;
+}
+
+.color-lateral{
+  background-color: #223b56 !important; 
+}
+
+.color-nav-sup{
+  background-color: #1086e8 ;
+  
+}
+
+.form-grafica{
+  margin-bottom: 10px;
+}
+
+.Error-formulario{
+  color: red;
+}
+
+.sucsse-icons{
+  color:green;
+}
+
+#credits li,
+#credits li a {
+  color: white;
+}
+
+.index{
+  background-color: #776d6d importan! ;
+}
+
+#credits li a {
+  font-weight: bold;
+}
+#map {
+     height: 490px;
+    width: 1080px;
+  }
+
+.grafica{
+  height: 590px;
+}
+
+.footer-copyright .container,
+.footer-copyright .container a {
+  color: #BCC2E2;
+}
+
+.fab-tip {
+  position: fixed;
+  right: 85px;
+  padding: 0px 0.5rem;
+  text-align: right;
+  background-color: #323232;
+  border-radius: 2px;
+  color: #FFF;
+  width: auto;
+}
